@@ -1,0 +1,101 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #0d0b0b;
+      color: #f5e9dc;
+      overflow-x: hidden;
+    }
+
+    /* ---------- HEADER ---------- */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      position: fixed;
+      width: 100%;
+      z-index: 100;
+      background: rgba(18, 15, 15, 0.4);
+      backdrop-filter: blur(6px);
+    }
+
+    header h1 {
+      color: #f6b26b;
+      font-size: 1.8rem;
+      font-family: 'Playfair Display', serif;
+    }
+    
+    .navbar a {
+      color: #f5e9dc;
+      font-size:20px;
+      margin-left: 25px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    .navbar a:hover {
+      color: #f6b26b;
+    }
+
+    /* ---------- HERO ---------- */
+    .hero {
+      position: relative;
+      height: 100vh;
+      background: url('https://substackcdn.com/image/fetch/$s_!wcRp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fca684854-99d5-4617-ad14-6cc7f98ecb91_1920x1080.jpeg') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 0 60px;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at 50% 50%, rgba(20, 17, 17, 0.8), rgba(10, 8, 8, 0.2));
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 600px;
+    }
+
+    .hero-content h2 {
+      font-size: 3rem;
+      color: #f6b26b;
+      margin-bottom: 20px;
+      text-shadow: 0 0 20px rgba(246, 178, 107, 0.4);
+    }
+
+    .hero-content p {
+      font-size: 1.1rem;
+      color: #ddd0c1;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+
+    .btn {
+      background-color: #f6b26b;
+      color: #1a1410;
+      padding: 14px 30px;
+      border: none;
+      border-radius: 30px;
+      font-size: 1rem;
+      cursor: pointer;
+      font-weight: 600;
+      box-shadow: 0 4px 20px rgba(246, 178, 107, 0.2);
+      transition: all 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #f8c58b;
+      box-shadow: 0 6px 25px rgba(246, 178, 107, 0.3);
+    }
