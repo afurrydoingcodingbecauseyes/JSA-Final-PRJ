@@ -7,6 +7,7 @@
 
     body {
       font-family: 'Poppins', sans-serif;
+      font-weight:400;
       background-color: #0d0b0b;
       color: #f5e9dc;
       overflow-x: hidden;
@@ -99,4 +100,5 @@
       background-color: #f8c58b;
       box-shadow: 0 6px 25px rgba(246, 178, 107, 0.3);
     }
- 
+  
+    
