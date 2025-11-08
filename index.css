@@ -101,4 +101,71 @@
       box-shadow: 0 6px 25px rgba(246, 178, 107, 0.3);
     }
   
+/* ---------- FOOTER STYLES ---------- */
+.footer {
+  background: #1a1410;
+  border-top: 1px solid #3a2d26;
+  color: #f5e9dc;
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.footer-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.footer h3 {
+  color: #f6b26b;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer p {
+  color: #cdbfae;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  font-weight: 300;
+}
+
+.footer-links {
+  margin: 1rem 0;
+}
+
+.footer-links a {
+  color: #f5e9dc;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: 400;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #f6b26b;
+}
+
+.footer-socials {
+  margin: 1rem 0 1.5rem;
+}
+
+.footer-socials a {
+  color: #f6b26b;
+  font-size: 1.3rem;
+  margin: 0 10px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer-socials a:hover {
+  color: #f8c58b;
+  transform: scale(1.15);
+}
+
+.footer-copy {
+  color: #a89784;
+  font-size: 0.85rem;
+  font-weight: 300;
+  margin-top: 10px;
+}
     
